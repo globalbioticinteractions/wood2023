@@ -8,7 +8,7 @@
       "@language" : "en"
     } ],
     "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
-    "url" : "file:///home/jorrit/proj/globi/data-new/wood2023/12862_2023_2175_MOESM2_ESM.xlsx.tsv",
+    "url" : "12862_2023_2175_MOESM2_ESM.xlsx.tsv",
     "dcterms:bibliographicCitation" : "Wood, T.J., Müller, A., Praz, C. et al. Elevated rates of dietary generalization in eusocial lineages of the secondarily herbivorous bees. BMC Ecol Evo 23, 67 (2023). https://doi.org/10.1186/s12862-023-02175-1",
     "delimiter" : "\t",
     "interactionTypeName": "pollinates",
