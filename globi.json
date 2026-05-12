@@ -1,0 +1,542 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "file:///home/jorrit/proj/globi/data-new/wood2023/12862_2023_2175_MOESM2_ESM.xlsx.tsv",
+    "dcterms:bibliographicCitation" : "Wood, T.J., Müller, A., Praz, C. et al. Elevated rates of dietary generalization in eusocial lineages of the secondarily herbivorous bees. BMC Ecol Evo 23, 67 (2023). https://doi.org/10.1186/s12862-023-02175-1",
+    "delimiter" : "\t",
+    "interactionTypeName": "pollinates",
+    "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002455",
+    "headerRowCount" : 1,
+    "null" : [ "" ],
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "http://www.w3.org/ns/prov#wasDerivedFrom",
+        "titles" : "http://www.w3.org/ns/prov#wasDerivedFrom",
+        "datatype" : "string"
+      }, {
+        "name" : "http://purl.org/dc/elements/1.1/format",
+        "titles" : "http://purl.org/dc/elements/1.1/format",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceCitation",
+        "titles" : "Reference",
+        "datatype" : "string"
+      }, {
+        "name" : "Number (Appenidx I)",
+        "titles" : "Number (Appenidx I)",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonFamilyName",
+        "titles" : "Family",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonSpeciesName",
+        "titles" : "Species",
+        "datatype" : "string"
+      }, {
+        "name" : "Loads",
+        "titles" : "Loads",
+        "datatype" : "string"
+      }, {
+        "name" : "Nest",
+        "titles" : "Nest",
+        "datatype" : "string"
+      }, {
+        "name" : "Obs.",
+        "titles" : "Obs.",
+        "datatype" : "string"
+      }, {
+        "name" : "M",
+        "titles" : "M",
+        "datatype" : "string"
+      }, {
+        "name" : "Acanthaceae",
+        "titles" : "Acanthaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Adoxaceae",
+        "titles" : "Adoxaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Aizoaceae",
+        "titles" : "Aizoaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Amaryllidaceae",
+        "titles" : "Amaryllidaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Altingiaceae",
+        "titles" : "Altingiaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Anacardiaceae",
+        "titles" : "Anacardiaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Apiaceae",
+        "titles" : "Apiaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Apocynaceae",
+        "titles" : "Apocynaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Aquifoliaceae",
+        "titles" : "Aquifoliaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Araliaceae",
+        "titles" : "Araliaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Arecaceae",
+        "titles" : "Arecaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Asparagaceae",
+        "titles" : "Asparagaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Asphodelaceae",
+        "titles" : "Asphodelaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Asteraceae",
+        "titles" : "Asteraceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Balsaminaceae",
+        "titles" : "Balsaminaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Berberidaceae",
+        "titles" : "Berberidaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Betulaceae",
+        "titles" : "Betulaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Bignoniaceae",
+        "titles" : "Bignoniaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Bixaceae",
+        "titles" : "Bixaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Boraginaceae",
+        "titles" : "Boraginaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Brassicaceae",
+        "titles" : "Brassicaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Cactaceae",
+        "titles" : "Cactaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Calceolariaceae",
+        "titles" : "Calceolariaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Campanulaceae",
+        "titles" : "Campanulaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Capparaceae",
+        "titles" : "Capparaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Caprifoliaceae",
+        "titles" : "Caprifoliaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Caryophyllaceae",
+        "titles" : "Caryophyllaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Chenopodiaceae",
+        "titles" : "Chenopodiaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Cistaceae",
+        "titles" : "Cistaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Clusiaceae",
+        "titles" : "Clusiaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Colchicaceae",
+        "titles" : "Colchicaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Commelinaceae",
+        "titles" : "Commelinaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Convolvulaceae",
+        "titles" : "Convolvulaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Cordiaceae",
+        "titles" : "Cordiaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Cornaceae",
+        "titles" : "Cornaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Costaceae",
+        "titles" : "Costaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Crassulaceae",
+        "titles" : "Crassulaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Cucurbitaceae",
+        "titles" : "Cucurbitaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Cunoniaceae",
+        "titles" : "Cunoniaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Ebenaceae",
+        "titles" : "Ebenaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Elaeagnaceae",
+        "titles" : "Elaeagnaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Ericaceae",
+        "titles" : "Ericaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Escalloniaceae",
+        "titles" : "Escalloniaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Euphorbiaceae",
+        "titles" : "Euphorbiaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Fabaceae",
+        "titles" : "Fabaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Fagaceae",
+        "titles" : "Fagaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Frankeniaceae",
+        "titles" : "Frankeniaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Gentianaceae",
+        "titles" : "Gentianaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Geraniaceae",
+        "titles" : "Geraniaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Grossulariaceae",
+        "titles" : "Grossulariaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Heliconiaceae",
+        "titles" : "Heliconiaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Hippocastanaceae",
+        "titles" : "Hippocastanaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Hydrangaceae",
+        "titles" : "Hydrangaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Hypericaceae",
+        "titles" : "Hypericaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Iridaceae",
+        "titles" : "Iridaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Juglandaceae",
+        "titles" : "Juglandaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Juncaceae",
+        "titles" : "Juncaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Krameriaceae",
+        "titles" : "Krameriaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Lamiaceae",
+        "titles" : "Lamiaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Limnocharitaceae",
+        "titles" : "Limnocharitaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Lauraceae",
+        "titles" : "Lauraceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Liliaceae s.l.",
+        "titles" : "Liliaceae s.l.",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Linaceae",
+        "titles" : "Linaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Loasaceae",
+        "titles" : "Loasaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Lythraceae",
+        "titles" : "Lythraceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Malpighiaceae",
+        "titles" : "Malpighiaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Malvaceae",
+        "titles" : "Malvaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Melanthiaceae",
+        "titles" : "Melanthiaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Melastomataceae",
+        "titles" : "Melastomataceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Meliaceae",
+        "titles" : "Meliaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Mimosaceae",
+        "titles" : "Mimosaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Molluginaceae",
+        "titles" : "Molluginaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Monocots",
+        "titles" : "Monocots",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Muntingiaceae",
+        "titles" : "Muntingiaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Montiaceae",
+        "titles" : "Montiaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Myrtaceae",
+        "titles" : "Myrtaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Nitrariaceae",
+        "titles" : "Nitrariaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Nyctaginaceae",
+        "titles" : "Nyctaginaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Oleaceae",
+        "titles" : "Oleaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Onagraceae",
+        "titles" : "Onagraceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Orobanchaceae",
+        "titles" : "Orobanchaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Oxalidaceae",
+        "titles" : "Oxalidaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Papaveraceae",
+        "titles" : "Papaveraceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Parnassiaceae",
+        "titles" : "Parnassiaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Passifloraceae",
+        "titles" : "Passifloraceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Phytolaccaceae",
+        "titles" : "Phytolaccaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Pinaceae",
+        "titles" : "Pinaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Plantaginaceae",
+        "titles" : "Plantaginaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Plumbaginaceae",
+        "titles" : "Plumbaginaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Poaceae",
+        "titles" : "Poaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Polemoniaceae",
+        "titles" : "Polemoniaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Polygonaceae",
+        "titles" : "Polygonaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Pontederiaceae",
+        "titles" : "Pontederiaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Primulaceae",
+        "titles" : "Primulaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Protaceae",
+        "titles" : "Protaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Pteridaceae",
+        "titles" : "Pteridaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Ranunculaceae",
+        "titles" : "Ranunculaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Resedaceae",
+        "titles" : "Resedaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Rhamnaceae",
+        "titles" : "Rhamnaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Rosaceae",
+        "titles" : "Rosaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Rubiaceae",
+        "titles" : "Rubiaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Rutaceae",
+        "titles" : "Rutaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Salicaceae",
+        "titles" : "Salicaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Santalaceae",
+        "titles" : "Santalaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Sapindaceae",
+        "titles" : "Sapindaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Saxifragaceae",
+        "titles" : "Saxifragaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Scrophulariaceae",
+        "titles" : "Scrophulariaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Solanaceae",
+        "titles" : "Solanaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Sterculiaceae",
+        "titles" : "Sterculiaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Tamaricaceae",
+        "titles" : "Tamaricaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Theaceae",
+        "titles" : "Theaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Turneraceae",
+        "titles" : "Turneraceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Ulmaceae",
+        "titles" : "Ulmaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Urticaceae",
+        "titles" : "Urticaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Verbenaceae",
+        "titles" : "Verbenaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Violaceae",
+        "titles" : "Violaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Vitaceae",
+        "titles" : "Vitaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Xanthorrhoaceae",
+        "titles" : "Xanthorrhoaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Zygophyllaceae",
+        "titles" : "Zygophyllaceae",
+        "datatype" : "targetTaxonName"
+      }, {
+        "name" : "Unknown",
+        "titles" : "Unknown",
+        "datatype" : "targetTaxonName"
+      } ]
+    }
+  } ]
+}
